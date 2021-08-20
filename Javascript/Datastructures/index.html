@@ -198,6 +198,37 @@
     <div id="Ws and Wm">
         <h1>WeakSet & WeakMap</h1>
         <h2> Variation of Set and Map</h2>
+        <ul>
+            <li><h2>Variations and keys are only "weakly referenced"</h2></li>
+            <li><h2>Garbage collection can delete values and keys if not used anywhere else in the app</h2></li>
+            <li><h2>it helps in memory management</h2></li>
+        </ul>
     </div>
+
+    <div id="Linked-list">
+        <h1>A custom data structure: "Linked List"</h1>
+        <h2> || 5 | next || ---> || 'hi' | next || ---> || 8 | next || ---> || 11 | next ||</h2>
+        <ul>
+            <li>
+                <h2>Every element knows about the next element.</h2>
+            </li>
+            <li>
+                <h2>This allows for efficient re-sizing and insertion at start and end of the list.</h2>
+            </li>
+            <li>
+                <h2>First node is called "Head node" Last node is called "Tail node"</h2>
+            </li>
+            <li>
+                <h1>Why would you want a "linked list"?</h1>
+                <ul>
+                    <li>Historically, the main reason was memory management: you didn't hav to specify the size in advance.</li>
+                    <li>Now-a-days, javascript has dynamic arrays and memory isn't really prime issue in javascript apps.</li>
+                    <li>Linked lists can be useful if you do a lot of insertions at the beginning of lists - linked lists are faster than arrays at this.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div></div>
 </body>
 </html>
