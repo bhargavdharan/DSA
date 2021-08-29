@@ -17,6 +17,10 @@
 | **Hash Table**      |   dictionary      |HashMap,Linked H.M     | std::map
 | **Linked List**     |   not available   |LinkedList             | std::list
 
+## In python Data structures is defined in two ways:
+#### ---1.Built-in DS(list,tuple,set,Dictionary)
+#### ---2.user defined DS(stack,queue,linked list,tree,graph)
+
 
 ## Big O Notations
 
