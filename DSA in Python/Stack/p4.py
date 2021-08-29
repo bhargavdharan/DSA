@@ -1,0 +1,16 @@
+import  queue
+stack = queue.LifoQueue()
+a = stack
+stack.put(10)
+stack.put(20)
+stack.put(30)
+stack.put(40)
+stack.put(50)
+print(stack)
+print(a)
+b = stack.get()
+print(b)
+c = stack.get()
+print(c)
+d = stack.get()
+print(d)
