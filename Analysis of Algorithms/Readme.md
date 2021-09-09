@@ -54,6 +54,19 @@
 
 ## Best case Analysis
 
+### -- In best case analysis, we calculate lower bound on running time of an algorithm.
+### -- we must know the case that causes minimum number of operations to be executed.
+
+### -- in the linear search problem,the best case occurs when x is present at the first location.The no.of operations in the best case is constant(not dependent on n)
+### -- So time complexity in the best case would be O(1).
+
+### which one to use?
+
+### -- Most of the times, we do worst case analysis to analyze algorithms.In the worst analysis,we guarantee an upper bound on the running time of an algorithm which is good information.
+
+### -- The average case analysis is not easy to do in most of the practical cases and it is rarely done.In the average case analysis,we must know the mathematical distribution of all possible inputs.
+
+### -- The best case analysis is bogus.Guaranteeing a lower bound on an algorithm doesn't provide any information as in the worst case.an algorithm may take years to run.
 
 
 
