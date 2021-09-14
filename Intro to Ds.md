@@ -18,6 +18,20 @@
 
 Basically, data structures are divided into two categories.
 
+* PRIMITIVE Data structures
+
+1. Primitive data types are the data types available in most programming languages.
+
+2. These data types are used to represent single values.
+
+3. it is a basic data type available in most programming languages
+
+* NON-PRIMITIVE Data structures
+
+1. Data structures derived from primitive data types are known as Non-Primitive data types.
+
+2. It can be divided into two data types
+
 * **Linear Data structure**.
 
 * **Non-Linear Data structure**
@@ -87,12 +101,55 @@ Popular linear data structures are:
 
 2. user defined DS(stack,queue,linked list,tree,graph)
 
-## Big O Notations
+## What is an Algorithm ?
 
-### --- *Big O notation is used to measure how running time or space requirements for your program grow as input size grows*
+* An algorithm is a set of well-designed, step-by-step instructions designed to solve a problem or perform a specific task.
 
-### -- Measuring for time growth
+### Categories of algorithms
 
+From the data structure point of view, the following are some important categories of algorithms
 
-### -- Measuring for space growth
+* Search --- Algorithm to search an item in a data structure.
+
+* Sort   --- Algorithm to sort items in a certain order.
+
+* Insert --- Algorithm to insert items in a data structure.
+
+* Update --- Algorithm to update an existing item from a data structure.
+
+* Delete --- Algorithm to delete an existing item from a data structure.
+
+Not all procedures can be called an algorithm. an algorithm should have the following characteristics.
+
+* Input         --- An algorithm has some input values. we can pass 0 or some input value of an algorithm.
+
+* Output        --- We will get one or more output at the end of an algorithm.
+
+* Unambiguity   --- An algorithm should be unambiguous which means that the instructions in an algorithm should be clear and simple.
+
+* Finiteness    --- Algorithm must terminate after a finite number of steps.
+
+* Effectiveness --- An algorithm should be effective with the available resources.
+
+* Language independent  --- An algorithm must be language-independent so that the instructions in an algorithm can be implemented in any of the languages with the same output.
+
+## The complexity of Algorithm : Time
+
+How do you do "Measure" your code ? would you clock "How long" it takes to run ?
+
+### Time Complexity
+
+* The time complexity is not about how long the algorithm takes.Instead, how many operations are executed.The number of instructions executed by a program is affected by the input's size and how their elements are arranged
+
+* Time complexity (or running time) is estimated time an algorithm takes to run. However, you do not measure time complexity in seconds, but as a function of the input.
+
+* **Why is that the complexity is expressed as a function of the input?**
+
+* We can say for each algorithm have the following times:
+
+1. Worst-case time complexity
+
+2. Best-case time complexity
+
+3. Average-case time complexity
 
